@@ -6,6 +6,7 @@ const book = require("./routes/book");
 const cart = require("./routes/cart");
 const fav = require("./routes/favourite");
 const order = require("./routes/order");
+const path = require("path");
 require("dotenv").config();
 
 const PORT = process.env.PORT || 1000;
@@ -23,7 +24,8 @@ app.use("/api/v1", fav);
 app.use("/api/v1", order);
 
 
-const path = require("path");
+
+
 app.get("/", (req, res) => {
 app.use(express.static(path.resolve(__dirname, "frontend", "dist")));
 res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
