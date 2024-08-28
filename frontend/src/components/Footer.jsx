@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
       <hr className="my-4" />
       <p className="text-center p-0 text-zinc-200">
-        © 2024 BookHeaven. All Rights Reserved.
+        © 2024 BookGeeks. All Rights Reserved.
       </p>
     </div>
   );

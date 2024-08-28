@@ -55,7 +55,7 @@ const Navbar = () => {
                 alt="logo"
                 className="h-10 me-4"
               />{" "}
-              BookHeaven
+              BookGeeks
             </Link>
           </div>
           <div className=" w-1/6 block  lg:hidden">
